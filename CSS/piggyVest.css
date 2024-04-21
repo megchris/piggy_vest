@@ -40,7 +40,7 @@ body {
   border: 1px solid;
   border-radius: 20px 20px 20px 0px;
   width: 500px;
-  height: 485px;
+  height: 490px;
   padding: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -160,7 +160,7 @@ input {
 
 @media screen and (max-width: 414px) {
   .input {
-    height: 360px;
+    height: 380px;
     width: 300px;
     padding: 10px;
   }
@@ -474,7 +474,15 @@ input {
   .reset_password input {
     width: 240px;
   }
+  .reset_btn {
+    display: flex;
+    justify-content: center;
 
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    padding: 20px;
+  }
   .reset_btn label {
     width: 200px;
   }
