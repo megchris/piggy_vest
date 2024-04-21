@@ -4,11 +4,17 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    font-family: Roboto Condensed
     
 }
 
+html{
+    /* font-family: Roboto Condensed; */
 
+font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Arial, noto sans, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol, noto color emoji;
+line-height: 1.5;
+
+    
+}
 
 body{
     background-color: #062863;
