@@ -1,60 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>piggy_vest</title>
-    <link rel="stylesheet" href="../CSS/piggyVest.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../CSS/piggyVest.css" />
+  </head>
+  <body>
     <div class="container">
-
-        <div class="main_container">
+      <div class="main_container">
         <form action="#">
-            <div class="header">
-            <img src="../image/piggy_logo.png" height="50px" width="300px">
+          <div class="header">
+            <img src="../image/piggy_logo.png" height="50px" width="300px" />
+          </div>
+
+          <div class="input">
+            <h1>Login to your account</h1>
+            <p>Securely login to your piggyvest</p>
+
+            <div id="email">
+              <label for="email">Email or Phone Number</label><br />
+              <input type="text" name="email" required="required" />
             </div>
 
+            <div id="password">
+              <label for="Password">Password </label><br />
+              <input type="Password" name="password" required="required" />
+            </div>
 
-            <div class="input">
-                <h1>Login to your account</h1>
-                <p>Securely login to your piggyvest</p>
+            <div class="button">
+              <button id="signIn">LOG IN</button>
+            </div>
 
-                <div id="email">
-                <label for="email">Email or Phone Number</label><br>    
-                    <input type="text" name="email" required="required">
-                 </div>
-
-                    
-
-                    <div id="password">
-                        <label for="Password">Password </label><br>    
-                            <input type="Password" name="password" required="required">
-                       
-                        </div>
-
-                        <div class="button">
-                            <button id="signIn"> LOG IN </button>
-                            </div>
-
-                            <div class="no_account">
-                              <p>Don't have an account? <a href="../index.html" id="">Register</a></p>
-                              <p><a href="./piggy_forgot_password.html">Forgot password?</a></p>
-                                </div>
-        
-                </div>
-
-
-
-
-
-
-
-
-</form>
-
-        </div>
-        </div>
-        
-</body>
+            <div class="no_account">
+              <p>Don't have an account? <a href="../index.html" id="">Register</a></p>
+              <p><a href="./piggy_forgot_password.html">Forgot password?</a></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
